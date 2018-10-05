@@ -1,15 +1,141 @@
-.container{
-    max-width: 960px;
-    margin: 0 auto 0 auto;
-    border: 5px solid red;
-
-}
-
 body{
-    background-image: url="";
     background-repeat:no-repeat;
     background-size: 100;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+h1{
+    color:#4aaaa5;
+    font-size: 20px;
+    border-bottom: 2.5px solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
+.clear{
+    clear: both;
+}
+header{
+    position: relative;
+    border-bottom: 2.5px solid #cccccc;
+}
+.yourName{
+    background-color: #4aaaa5;
+    position: relative;
+    float: left;
+    padding: 15px;
+    color: white;
+    font-size: 24px;
+}
+ul.navigation{
+    list-style-type: none;
+    color: #777777;
+    padding: 10px 0 10px 0;
+}
+ul.navigation li{
+    float: left;
+    padding: 0 5px 0 5px;
+}
+ul.navigation li a{
+    color: #777777;
+    text-decoration: none;
+}
+.main{
+    background-image: url("/Basic-Portfolio/assets/images/concrete.png");
+    position: relative;
+    clear: both;
+    padding: 35px 0 100px 0;
+
+}
+.mainContent{
+    background-color: white;
+    padding: 20px 10px;
+}
+.mainContentHeader{
+    border-bottom: 3px #777777;
+    width: 100%;
+}
+.mainContentText{
+    padding: 15px 0 0 0;
+}
+.headphones{
+    position: relative;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.aboutMe{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.portfolioImage{
+    height: 250px;
+    width: 300px;
+    position: relative;
+    float: left;
+    margin: 15px;
+
+}
+#placeholder1{
+    background-image: url(/Basic-Portfolio/assets/images/ad-300x250.jpg);
+    background-size: cover;
+}
+#placeholder2{
+    background-image: url(/Basic-Portfolio/assets/images/ad-300x250-2.jpg);
+    background-size: cover;
+}
+#placeholder3{
+    background-image: url(/Basic-Portfolio/assets/images/ad-300x250-3.jpg);
+    background-size: cover;
+}
+#placeholder4{
+    background-image: url(/Basic-Portfolio/assets/images/ad-300x250-4.jpg);
+    background-size: cover;
+}
+#placeholder5{
+    background-image: url(/Basic-Portfolio/assets/images/ad-300x250-5.jpg);
+    background-size: cover;
+}
+.portfolioImageText{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+.formField{
+    width: 98%;
+    border: 1px solid #666666;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+#messageField{
+    height: 100px;
+}
+.submitBtn{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+}
+footer{
+    background-color: #666666;
+    padding: 30px 0 10px 0;
+    text-align: center;
+    color: #ffffff;
+    border-top: 10px solid #4aaaa5;
+}
+/*
+/////////////
+HOME PAGE STYLES
+/////////////   
+*/
+
+#links 
+
 
 
 li {
@@ -18,12 +144,7 @@ li {
     float:right;
     color:white
      }
-     h1 {
-         float: left;
-         color: white;
-         background-color: #4aaaa5;
-
-     }
+    
 
      h2 {
         color:#4aaaa5;
